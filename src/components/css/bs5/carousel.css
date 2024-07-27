@@ -1,0 +1,23 @@
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+ 
+  margin-top: 15rem ; /* Space from the left edge of the container */
+  margin-right: 0px; /* Space from the right edge of the container */
+  height: 15rem;
+  width: 5rem;
+}
+.carousel-control-prev:focus .carousel-control-prev-icon,
+.carousel-control-next:focus .carousel-control-next-icon,
+.carousel-control-prev:active .carousel-control-prev-icon,
+.carousel-control-next:active .carousel-control-next-icon {
+  border: 2px solid #000; 
+}
+
+.carousel-control-prev {
+  left: -60px;
+}
+
+.carousel-control-next {
+  right: -60px; /* Aligns with the right edge */
+}
+
